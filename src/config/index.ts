@@ -4,12 +4,12 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Benjamin Davey",
   author: "Benjamin Davey",
   description:
-    "A well rounded Design Engineering Staff Specialist with a passion for learning new things, trying things out, breaking and re-building things.",
+    "A well rounded Design Engineering Staff Specialist with a passion for learning new things and getting my hands dirty trying things out.",
   lang: "en",
   siteLogo: "/ben.jpg",
   navLinks: [
-    { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
+    { text: "Experience", href: "#experience" },
     { text: "About", href: "#about" },
     { text: "Testimonials", href: "#testimonials" },
   ],
@@ -25,11 +25,48 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Ben Davey",
-    specialty: "Design Engineering Staff Specialist",
+    title: "Design Engineering Staff Specialist",
     summary:
-      "A well rounded Design Engineering Staff Specialist with a passion for learning new things, trying things out, breaking and re-building things.",
-    email: "ben@ben-cloud.net",
+      "A well rounded Design Engineering Staff Specialist with a passion for learning new things and getting my hands dirty trying things out.",
   },
+  projects: [
+    {
+      name: "Homelab",
+      summary: "I buult a collection of servers and networking equipment that I use to learn and experiment with new technologies and to host services for my friends and family.",
+      image: "/homelab.jpg",
+      linkMore: "",
+    },
+    {
+      name: "Stock Car Racing Career",
+      summary: "Throughout high school and university, I built, raced and repaired many iterations of the #07 Bonestock Racecar that I drove at Deleware and Grand Bend Speedways under the Brandy Point Racing Team's umbrella",
+      image: "/racing.jpg",
+      linkMore: "",
+    },
+    {
+      name: "Guitar Build and Repair",
+      summary: "A collection of guitars that I have built and repaired over the years.",
+      image: "/guitars.jpg",
+      linkMore: "",
+    },
+    {
+      name: "Electronics Projects",
+      summary: "As a hobby, I have tinkered with a variety of electroinics projects in my spare time to gain experience with electronics components and learn to repair electronic devices",
+      image: "/electronics.jpg",
+      linkMore: "",
+    },
+    {
+      name: "3D Printing Projects",
+      summary: "I have recently begun to experiment with 3D printing to sharpen my CAD skills and deepend my manufacturing understanding.",
+      image: "/print.jpg",
+      linkMore: "",
+    },
+    {
+      name: "Woodworking Projects",
+      summary: "A selection of woodworking projects I have undertaken.",
+      image: "/woodworking.jpg",
+      linkMore: "",
+    },
+  ],
   experience: [
     {
       company: "GDLS-C",
@@ -74,34 +111,12 @@ export const SITE_CONTENT: SiteContent = {
       ],
     },
   ],
-  projects: [
-    {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
-    },
-    {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
-    },
-    {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
-    },
-  ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Hi, I'm Ben Davey, My interest in military vehicles and military technologies began in 2008, the year that my dad started working at GDLS-C as an FSR.
+      Since then, I have held this passion that drove me to pursue a degree in Engineering and seek employment in the inustry. I have a wide breadth of experience working with military technology and directly with the end users through my positions with GDMS-C and GDLS-C but I think what really sets me apart is my personal hobbies and interests.
+      In the projects section, you will find a selection of my personal projects and expereinces that I believe shows my hands on experience in mechanics and technology areas that I believe are relevant to the Innovation Cell team.
+      I love to learn by trying new things, researching all that I can find about them and getting my hands dirty building and breaking things. I believe that this is what makes me the ideal candidate for the Innovation Cell team.
     `,
     image: "/ben.jpg",
   },
