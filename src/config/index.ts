@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Benjamin Davey",
   author: "Benjamin Davey",
   description:
-    "A well rounded Design Engineering Analyst with a passion for learning new things, trying things out, breaking and re-building things.",
+    "A well rounded Design Engineering Staff Specialist with a passion for learning new things, trying things out, breaking and re-building things.",
   lang: "en",
   siteLogo: "/ben.jpg",
   navLinks: [
@@ -16,51 +16,62 @@ export const SITE_CONFIG: SiteConfig = {
   socialLinks: [
     { text: "LinkedIn", href: "https://www.linkedin.com/in/daveyb/" },
     { text: "Github", href: "https://github.com/bdavey07" },
-    { text: "Download Resume", href: "/Benjamin_Davey_Resume.pdf" },
     { text: "Email Me", href: "mailto:ben@ben-cloud.net" },
     { text: "Call Me", href: "tel:+15192726883" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  canonicalURL: "https://about.ben-cloud.net",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Ben Davey",
+    specialty: "Design Engineering Staff Specialist",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "A well rounded Design Engineering Staff Specialist with a passion for learning new things, trying things out, breaking and re-building things.",
+    email: "ben@ben-cloud.net",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "GDLS-C",
+      position: "C4 Systems Design Engineering Staff Specialist",
+      startDate: "Jan 2023",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Designing the various C4 subsystems that go into GDLS-C Light Armoured Vehicles from concept development and selection to design release.",
+        "Primary areas of focus in vehicle networking, communication systems and counter-UAS systems.",
+        "Hands on experience working with test and integration teams to ensure the functionality and quality of the systems.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "GDMS-C",
+      position: "Systems Engineering Analyst",
+      startDate: "May 2022",
+      endDate: "Jan 2023",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Designed and intgrated C4ISR systems in the next generation of the Canadian Army's Headquarters environment.",
+        "Worked directly with customer leadership and end users to define, build and test the solution to best meet Canadian Army's needs.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "GDMS-C",
+      position: "Systems Integration and Test Engineering Analyst",
+      startDate: "May 2019",
+      endDate: "May 2022",
+      summary: [
+        "Worked on the integration and test team for the Canadian Army's next generation of vehicle based C4ISR systems.",
+        "Integrated and tested C4ISR components in a Systems Integration Lab and in the field on Canadian Forces Bases.",
+        "Supported test events, field trials and demonstrations to Canadian Army leadership and end users.",
+      ],
+    },
+    {
+      company: "Various Companies",
+      position: "Co-op Positions",
+      startDate: "2015",
+      endDate: "2019",
+      summary: [
+        "Worked in a variety of Co-op poitions in wide ranging industries including Agriculture Technology, Web Development and Military Helicopter Software Development.",
+        "Responsibilities included automated testing development, robotic systems troubleshooting and maintenance and web development.",
+      ],
     },
   ],
   projects: [
@@ -92,7 +103,7 @@ export const SITE_CONTENT: SiteContent = {
 
       Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/ben.jpg",
   },
 };
 
