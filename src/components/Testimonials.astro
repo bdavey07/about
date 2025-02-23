@@ -1,0 +1,16 @@
+---
+import Section from "./Section.astro";
+import type { TestimonialProps } from "@types";
+
+interface Props {
+  testimonial: TestimonialProps[];
+}
+
+const { testimonial } = Astro.props;
+---
+
+<Section text="Testimonials" href="testimonial">
+    {testimonial.map((item) => (
+       <p class="text-neutral w-auto text-base md:pr-5">{item.description}</p>
+    ))}
+  </Section>

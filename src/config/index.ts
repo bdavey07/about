@@ -17,7 +17,6 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "LinkedIn", href: "https://www.linkedin.com/in/daveyb/" },
     { text: "Github", href: "https://github.com/bdavey07" },
     { text: "Email Me", href: "mailto:ben@ben-cloud.net" },
-    { text: "Call Me", href: "tel:+15192726883" },
   ],
   canonicalURL: "https://about.ben-cloud.net",
 };
@@ -64,6 +63,12 @@ export const SITE_CONTENT: SiteContent = {
       name: "Woodworking Projects",
       summary: "A selection of woodworking projects I have undertaken.",
       image: "/woodworking.jpg",
+      linkMore: "",
+    },
+    {
+      name: "This Website!",
+      summary: "When I got the request for a portfolio submission, I decided to use it as an opportunity to learn a new web development framework and webhosting.",
+      image: "/site.jpg",
       linkMore: "",
     },
   ],
@@ -113,13 +118,25 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I'm Ben Davey, My interest in military vehicles and military technologies began in 2008, the year that my dad started working at GDLS-C as an FSR.
+      Hi, I'm Ben Davey, my interest in military vehicles and military technologies began in 2008, the year that my dad started working at GDLS-C as an FSR.
       Since then, I have held this passion that drove me to pursue a degree in Engineering and seek employment in the inustry. I have a wide breadth of experience working with military technology and directly with the end users through my positions with GDMS-C and GDLS-C but I think what really sets me apart is my personal hobbies and interests.
       In the projects section, you will find a selection of my personal projects and expereinces that I believe shows my hands on experience in mechanics and technology areas that I believe are relevant to the Innovation Cell team.
       I love to learn by trying new things, researching all that I can find about them and getting my hands dirty building and breaking things. I believe that this is what makes me the ideal candidate for the Innovation Cell team.
     `,
     image: "/ben.jpg",
   },
+  testimonials: [
+    {
+      description: `
+        "Ben is a great guy, he's always willing to help out and lend a hand. He's the first person I go to when I need help with a project."
+      `,
+    },
+    {
+      description: `
+        "Ben is a hard worker and a quick learner. He's always willing to take on new challenges and learn new things."
+      `,
+    }
+  ],
 };
 
 // #5755ff
