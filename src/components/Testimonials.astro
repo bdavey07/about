@@ -9,8 +9,12 @@ interface Props {
 const { testimonial } = Astro.props;
 ---
 
-<Section text="Testimonials" href="testimonial">
-    {testimonial.map((item) => (
-       <p class="text-neutral w-auto text-base md:pr-5">{item.description}</p>
+<Section text="Testimonials" href="testimonials">
+    {testimonial.map((item, index) => (
+        <div
+          class={`sticky rounded-2xl border border-neutral/20 bg-[#1c232d]/85 bg-difu mb-4 p-4 max-w-xl ${index % 2 === 0 ? 'mr-auto' : 'ml-auto'}`}
+        >
+            <p class="text-neutral w-auto text-base md:pr-5">{item.description}</p>
+        </div>
     ))}
-  </Section>
+</Section>
