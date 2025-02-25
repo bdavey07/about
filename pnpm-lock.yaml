@@ -11,6 +11,9 @@ importers:
       '@astrojs/check':
         specifier: ^0.9.4
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.3.3)(typescript@5.6.2)
+      '@astrojs/markdown-remark':
+        specifier: ^6.1.0
+        version: 6.1.0
       '@astrojs/tailwind':
         specifier: ^6.0.0
         version: 6.0.0(astro@5.3.0(jiti@1.21.6)(rollup@4.34.8)(typescript@5.6.2)(yaml@2.5.1))(tailwindcss@3.4.11)
@@ -3899,7 +3902,7 @@ snapshots:
   rehype-stringify@10.0.1:
     dependencies:
       '@types/hast': 3.0.4
-      hast-util-to-html: 9.0.2
+      hast-util-to-html: 9.0.5
       unified: 11.0.5
 
   rehype@13.0.2:

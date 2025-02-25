@@ -6,28 +6,29 @@ import Layout from "@layouts/MoreLayout.astro";
   <section class="container mx-auto p-8">
     <h1 class="text-4xl font-bold mb-4 text-white">My Homelab</h1>
     <div class="mb-8">
-      <img src="/images/server-rack.jpg" alt="Server Rack" class="w-full rounded-lg shadow-lg mb-4">
+      <img src="/homelab.jpg" alt="Server Rack" class="w-full rounded-lg shadow-lg mb-4">
       <p class="text-neutral w-auto text-base md:pr-5">
-        My server rack with various equipment.
+        I am very interested in computing and networking technologies so I decided to build a small homelab consisting of a router, an unmanaged Gigabit Ethernet switch, two Mini-PCs and a variety of storage devices.
+        The physical structure of the computing and networking equipment rack is all 3D printed with custom designed trays for each component.
+        <br><br> This setup allows me to experiment with different technologies and host a variety of services for personal use.
       </p>
     </div>
     <div class="mb-8">
-      <img src="/images/networking-setup.jpg" alt="Networking Setup" class="w-full rounded-lg shadow-lg mb-4">
+      <img src="/proxmox.jpg" alt="Proxmox" class="w-full rounded-lg shadow-lg mb-4">
       <p class="text-neutral w-auto text-base md:pr-5">
-        Networking setup with switches and routers.
+        The router is running OpenWRT firmware on its own subnet to keep it isolated from the main network. The two Mini-PCs are clustered ProxMox Hosts running the following services:
       </p>
-    </div>
-    <div class="mb-8">
-      <img src="/images/homelab-workstation.jpg" alt="Homelab Workstation" class="w-full rounded-lg shadow-lg mb-4">
-      <p class="text-neutral w-auto text-base md:pr-5">
-        My workstation for managing the homelab.
-      </p>
-    </div>
-    <div class="mb-8">
-      <img src="/images/server-components.jpg" alt="Server Components" class="w-full rounded-lg shadow-lg mb-4">
-      <p class="text-neutral w-auto text-base md:pr-5">
-        Various components used in the servers.
-      </p>
+      <ul class="list-disc pl-5 text-neutral w-auto text-base md:pr-5">
+        <li>SMB Server for a NAS</li>
+        <li>JellyFin, AudiobookShelf and Calibre Servers for Media Streaming</li>
+        <li>qBittorrent Server</li>
+        <li>Trillium Next, LinkWarden, WikiJs and Vikunja Servers for Self-Hosted Personal Knowledge Management</li>
+        <li>Uptime Kuma and Homer Servers for Server Monitoring</li>
+        <li>PiHole and Caddy Proxy Servers for DNS Resolution and Ad-Blocking</li>
+        <li>Home Assistant Server for Home Automation</li>
+        <li>VMs for each of the Major Linux Distributions</li>
+        <li>And More... Depending on the day</li>
+      </ul>
     </div>
   </section>
 </Layout>
